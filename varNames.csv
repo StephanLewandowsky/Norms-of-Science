@@ -1,0 +1,68 @@
+qvarname,shortname,longname
+V1,,ResponseID
+V2,,ResponseSet
+V3,,Name
+V4,,ExternalDataReference
+V5,,EmailAddress
+V6,,IPAddress
+V7,,Status
+V8,,StartDate
+V9,,EndDate
+V10,,Finished
+rid,,rid
+RISN,,RISN
+opp,,opp
+Q_TotalDuration,,Q_TotalDuration
+gc,,gc
+term,,term
+Q1.1,,info
+Q2.1,,What is your age?
+Q2.2,,What is your gender?
+Q2.3,,When did you learn English?
+Q2.4,,"Australian radio shock jock Alan Jones has called global warming a ""hoax"", implying that green gr..."
+Q3.1,HumConsc  ,Humans are the only living beings who are conscious.
+Q3.2,EarthIntel  ,The Earth is the only planet in the universe that provides the conditions for intelligent life.
+Q3.3,HumRational   ,Humans are inherently rational.
+Q3.4,HumJust1   ,Humans are just one of many million species of animals and we share most of our genes with other...
+Q3.5,EarthHierar  ,There is a natural hierarchy of life forms on Earth and humans are on the top of that hierarchy.
+Q3.6,IntBigProb  ,Some problems are so big they can only be solved by all countries working together.
+Q3.7,IntEnjoy  ,I enjoy talking to people from all around the world
+Q3.8,Allegiance  ,Every human must have an allegiance to one country and one country only.
+Q3.9,IntOwn  ,I would prefer to go on holiday with people from my own country rather than with foreigners.
+Q3.10,IntWeb  ,A good thing about the internet is that we can get to know people from foreign countries
+Q3.11,IntNoMix   ,People coming from different cultures usually do not work together well.
+Q3.12,IntCharity   ,I would rather donate to a charity working in my own country than to a charity that helps people...
+Q3.13,IQGen  ,"When people differ in intelligence, it is mostly due to differences in their genetic endowment."
+Q3.14,IQAdopt  ,"When a child is adopted into a new family, its intelligence does not depend on the intelligence o..."
+Q3.15,IQEd  ,"Intelligence is not inherited, it is acquired through education"
+Q3.16,IQUpbring  ,A person's upbringing is more important to their intelligence than their genetic inheritance.
+Q3.17,IQTwins  ,Identical twins separated shortly after birth and reared in different family environments will en...
+Q3.18,IQParents  ,"If you know the intelligence of parents, you can make a good guess about the intelligence of thei..."
+Q3.19,IQStim  ,With a rich stimulating environment every healthy child can grow up to be smart enough to learn a...
+Q3.20,RelComf  ,"Do you agree with the following statement? ""Religion gives me a great amount of comfort and secur..."
+Q3.21,RelFreq  ,"During the past year, how often have you experienced a feeling of religious reverence or devotion?"
+Q3.22,RelInfl  ,How much influence would you say religion has on the way you choose to act and the way you choose...
+Q3.23,RelAdv  ,When you have a serious personal problem how often do you take religious advice or teaching into...
+Q3.24,PrayComf  ,Which of the following best describes your practice of prayer or religious meditation?
+Q3.25,FMUnresBest,An economic system based on free markets unrestrained by government interference automatically wo...
+Q3.26,FMLimitSocial ,The free market system may be efficient for resource allocation but it is limited in its capacity...
+Q3.27,FMMoreImp,The preservation of the free market system is more important than localized environmental concerns
+Q3.28,FMThreatEnv ,Free and unregulated markets pose important threats to sustainable development.
+Q3.29,FMUnsustain ,The free market system is likely to promote unsustainable consumption.
+Q3.30,CNatFluct ,I believe that the climate is always changing and what we are currently observing is just natural...
+Q3.31,CdueGHG ,I believe that most of the warming over the last 50 years is due to the increase in greenhouse ga...
+Q3.32,CseriousDam ,I believe that the burning of fossil fuels over the last 50 years has caused serious damage to th...
+Q3.33,CO2causesCC  ,Human CO2 emissions cause climate change.
+Q3.34,HumansInsign  ,Humans are too insignificant to have an appreciable impact on global temperature.
+Q3.35,VaxSafe  ,I believe that vaccines are a safe and reliable way to help avert the spread of preventable diseases
+Q3.36,VaxNegSide  ,I believe that vaccines have negative side effects that outweigh the benefits of vaccination for...
+Q3.37,VaxTested  ,Vaccines are thoroughly tested in the laboratory and wouldn't be made available to the public unl...
+Q3.38,VaxRisky ,The risk of vaccinations to maim and kill children outweighs their health benefits
+Q3.39,VaxContrib ,Vaccinations are one of the most significant contributions to public health
+Q3.40,,Which of these is not an animal?
+Q4.1,,"President Trump has said that ""Global warming is a total, and very expensive, hoax!"" that was ""cr..."
+Q4.2,,What is your age?
+Q5.1,,Thank you for participating.
+LocationLatitude,,LocationLatitude
+LocationLongitude,,LocationLongitude
+LocationAccuracy,,LocationAccuracy
