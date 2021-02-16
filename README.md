@@ -13,3 +13,5 @@
 * The preregistration document can be found at https://osf.io/c8qfx.
 
 * The data file delivered to the authors can be accessed at https://osf.io/4wy6m/. 
+
+Note that all identifying information is removed from both data files.
