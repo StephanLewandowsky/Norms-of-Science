@@ -1,0 +1,112 @@
+﻿StartDate,Start Date
+EndDate,End Date
+Status,Response Type
+IPAddress,IP Address
+Progress,Progress
+Duration (in seconds),Duration (in seconds)
+Finished,Finished
+RecordedDate,Recorded Date
+ResponseId,Response ID
+RecipientLastName,Recipient Last Name
+RecipientFirstName,Recipient First Name
+RecipientEmail,Recipient Email
+ExternalReference,External Data Reference
+LocationLatitude,Location Latitude
+LocationLongitude,Location Longitude
+DistributionChannel,Distribution Channel
+UserLanguage,User Language
+Time_Info_First Click,Timing - First Click
+Time_Info_Last Click,Timing - Last Click
+Time_Info_Page Submit,Timing - Page Submit
+Time_Info_Click Count,Timing - Click Count
+Q20,"By consenting to your participation you confirm:
+
+
+	You are 18 or over     
+	You have been given enough information about the study  
+	You have received enough information about the study to make a decision about your participation 
+
+By consenting to your participation you understand:            
+
+
+	You are free to withdraw from the study at any time    
+	You do not have to provide a reason for withdrawing"
+Time_Consent_First Click,Timing - First Click
+Time_Consent_Last Click,Timing - Last Click
+Time_Consent_Page Submit,Timing - Page Submit
+Time_Consent_Click Count,Timing - Click Count
+Age_1,What is your age?
+Q67,What is your gender?
+AFQ1,The Earth orbits around the moon
+AFQ2,The moon orbits around the Earth
+NOR_COM1,Scientific findings should be available to everybody everywhere in the world
+NOR_COM2,Scientists should share their knowledge freely with everyone interested
+NOR_DIS1,Scientists should put evidence ahead of their own views
+NOR_DIS2,"Scientists
+should investigate only what they judge to be scientifically important,
+regardless of whether it leads to financial gain for them or their employers"
+NOR_SCEP1,"Scientists should always keep an open mind and
+be prepared to change their conclusions if new evidence comes along"
+NOR_UNIV1,"The truth of a scientific discovery does not depend on the nationality, gender, race, or faith of the scientist making it"
+NOR_UNIV2,Scientific knowledge should hold true for everybody all over the world
+NOR_COM3_REV,"The results of scientific research in our
+country should be protected better so that they cannot be used by our
+adversaries"
+NOR_DIS3_REV,The main goal of science should be to strengthen the economy by developing better technology
+NOR_DIS4_REV,"The main responsibility of a scientist should be
+to make their university or employer more competitive"
+NOR_COM4_REV,"An important goal of science should be to ensure
+the technological superiority of our military"
+NOR_SCEP2_REV,"For a scientist it should only be a matter of
+last resort to admit that they are wrong"
+NOR_UNIV3_REV,A scientific statement that is true in one country can be false in another
+NOR_UNIV4_REV,One should not believe a scientific discovery that contradicts one's faith
+POL_CONS1,People are better off in a free market economy
+POL_CONS2,This country would have many fewer problems if there were more emphasis on traditional family values
+POL_CONS3_REV,The world is always changing and we should adjust our views of moral behavior to those changes
+POL_CONS4_REV,Socialism has many advantages over Capitalism
+POL_CONS5_SLIDER_1,"People sometimes use the labels 'left' or 'left-wing' and 'right' or 'right-wing' to describe political parties, party leaders, and political ideas. Using the 0 to 10 scale below, where the end marked 0 means left and the end marked 10 means right, where would you place yourself on this scale?"
+IQ_GEN1,"When people differ in intelligence, it is mostly
+due to differences in their genes"
+IQ_GEN2_REV,"Intelligence
+is not inherited but is acquired through education"
+IQ_GEN3,"Some children are born brighter than others, and
+that is unlikely to change during their life"
+IQ_GEN4_REV,"A person's upbringing is more important to their
+intelligence than their genetic inheritance"
+IQ_GEN5_REV,"With a rich stimulating environment every
+healthy child can grow up to be smart enough to learn any profession"
+IQ_GEN6,"Smart parents will usually have smart children,
+even if the children are raised by other people"
+CLIM1_REV,I believe that the climate is always changing and what we are currently observing is just natural fluctuation.
+CLIM2,I believe that most of the warming over the last 50 years is due to the increase in greenhouse gas concentrations.
+CLIM3,I believe that the burning of fossil fuels over the last 50 years has caused serious damage to the planetâ€™s climate.
+CLIM4,Human CO2 emissions cause climate change.
+CLIM5_REV,Humans are too insignificant to have an appreciable impact on global temperature.
+VAX1,I believe that vaccines are a safe and reliable way to help avert the spread of preventable diseases
+VAX2_REV,I believe that vaccines have negative side effects that outweigh the benefits of vaccination for children
+VAX3,Vaccines are thoroughly tested in the laboratory and wouldn't be made available to the public unless it was known that they are safe
+VAX4_REV,The risk of vaccinations to maim and kill children outweighs their health benefits
+VAX5,Vaccinations are one of the most significant contributions to public health
+SDO1,An ideal society requires some groups to be on top and others to be on the bottom
+SDO2,Some groups of people are simply inferior to other groups in society
+SDO3_REV,No one group should dominate in society
+SDO4_REV,Groups of society at the bottom are just as deserving as groups at the top
+SDO5,Equality between groups in society should not be our primary goal
+SDO6,It is unjust to try to make groups in society equal
+SDO7_REV,We should do what we can to equalize conditions for different groups in society
+SDO8_REV,We should work to give all groups in society an equal chance to succeed
+Time_debrief_First Click,Timing - First Click
+Time_debrief_Last Click,Timing - Last Click
+Time_debrief_Page Submit,Timing - Page Submit
+Time_debrief_Click Count,Timing - Click Count
+opp,opp
+Q_TotalDuration,Q_TotalDuration
+isNew,isNew
+rid,rid
+RISN,RISN
+V,V
+test,test
+gc,gc
+term,term
+age,age
