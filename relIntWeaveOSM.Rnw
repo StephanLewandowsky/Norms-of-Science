@@ -1,0 +1,522 @@
+\documentclass{apa}
+
+\usepackage{Sweave}
+\usepackage{apacite}
+
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{rotating}
+\usepackage{multirow}
+%\usepackage{todonotes}
+%\usepackage[hyphens]{url}
+\usepackage{longtable}
+%\usepackage{endfloat}
+
+\widowpenalty=10000
+\clubpenalty=10000
+\raggedbottom
+\newcommand{\helv}[1]{{\Huge\fontfamily{phv}\selectfont{#1}}}
+
+
+\title{Online Supplement for \textit{Worldview-motivated rejection of science and the norms of science}}
+\author{Stephan Lewandowsky and Klaus Oberauer}
+%or \threeauthors{}{}{}
+\twoaffiliations{University of Bristol and University of Western Australia}{University of Zurich}
+
+\shorttitle{Worldview and norms of science}
+\rightheader{Worldview and norms of science}
+\leftheader{Worldview and norms of science}
+
+%\ifapamodeman{%
+%\note{
+%\begin{flushleft}
+%Stephan Lewandowsky \\
+%School of Psychological Science and Cabot Institute \\
+%University of Bristol \\
+%12a Priory Road \\
+%Bristol BS8 1TU, United Kingdom \\
+%stephan.lewandowsky@bristol.ac.uk \\
+%URL: http://www.cogsciwa.com \\
+%\end{flushleft}}
+%}
+%{% else, i.e., in jou and doc mode
+%\note{}
+%}
+\begin{document}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\renewcommand{\thetable}{S\arabic{table}}
+\setcounter{table}{0} 
+\setcounter{figure}{0} 
+
+\maketitle
+
+<<preamble, echo=FALSE, message=FALSE>>=
+knitr::opts_chunk$set(results="hide",echo=FALSE,message=FALSE,error=FALSE)
+@
+<<doanalysis, echo=FALSE, warning=FALSE, message=FALSE, results='hide', fig.keep='none'>>=
+# run the analysis which should generate figures
+#source("test.R")
+source("C:/Users/Lewan/Documents/Research Projects/Climate Change/religion human special status and science Klaus/Study 1 -- part of original Cognition submission 2019/Q rep sample/Q religion data/religionQualtrics.r")
+@
+
+\section{Study 1: Materials and data summary}
+
+Table~\ref{tab:items} 
+provides a verbatim list of the 39 core survey items together
+with brief labels (e.g., \textit{HumConsc} for ``Humans are the only living 
+beings who are conscious'') that are used for presentation of
+the results.
+
+Table~\ref{tab:itemResponses}
+shows the number and percentages of all responses before
+reverse-scoring for all items. Table~\ref{tab:items} provides
+an explanation of the short item labels.
+Composite scores for each construct were then formed by averaging 
+responses across
+all relevant items after reverse-scoring where necessary. 
+Larger numbers refer to greater endorsement of a construct. 
+Figure~\ref{fig:histoSummary} shows the distributions 
+of the average scores for the 7 constructs. 
+
+\begin{figure}[tp] %fig:histoSummary
+	\centering
+	\includegraphics[width=\linewidth]{histoSummary.pdf}
+	\caption{
+		Frequency distributions of the composite scores for all 7 constructs in Study~1,
+		formed by averaging across items within each construct after
+		reverse scoring. Each histogram shows the distribution
+		across subjects of the composite score. 
+		The religiosity construct is measured by 4 items with 5-point scales
+		(see Table~\ref{tab:items}), and
+		one item with a 7-point scale ranging 
+		from ``Strongly agree'' to ``Strongly disagree'' with ``Neither agree nor disagree''
+		at the midpoint. All items for all other constructs
+		used the same 7-point scale.}
+	\label{fig:histoSummary}
+\end{figure}
+
+
+\section{Study 2: Materials and data summary}
+
+<<doanalysis2, echo=FALSE, warning=FALSE, message=FALSE, results='hide', fig.keep='none'>>=
+source("C:/Users/Lewan/Documents/Research Projects/Climate Change/religion human special status and science Klaus/Study 2 -- for revision/qualtrics details and data study 2/norms2Q.r")
+@
+
+All core items and attention filters used a 7-point 
+response scale ranging 
+from ``Strongly disagree'' to ``Strongly agree'', with the exception of
+one of the conservatism items (\textit{POL\_CONS5}), which used
+an 11-point scale. Table~\ref{tab:items2} shows the full text of the items
+and their short labels.
+
+Table~\ref{tab:itemResponses2}
+shows the number and percentages of responses before
+reverse-scoring (item labels are explained in Table~\ref{tab:items2}).
+Composite scores were formed by averaging 
+responses for each construct after reverse-scoring where necessary. 
+Figure~\ref{fig:histoSummary2} shows the distributions 
+of the average (composite) scores for the 6 constructs. 
+
+\begin{figure}[tp] %fig:histoSummary2
+	\centering
+	\includegraphics[width=\linewidth]{histoSummary2.pdf}
+	\caption{
+		Frequency distributions of the composite scores for all 6 constructs in Study~2,
+		formed by averaging across items within each construct after
+		reverse scoring. Each histogram shows the distribution
+		across subjects of the composite score. 
+		All items used a 7-point scale ranging 
+		from ``Strongly agree'' to ``Strongly disagree'' with ``Neither agree nor disagree''
+		at the midpoint. Item 
+		\textit{POL\_CONS5} 
+		is not included in the composite
+		because it used an 11-point ``slider'' scale.}
+	\label{fig:histoSummary2}	
+\end{figure}
+
+
+\pagebreak
+
+\begin{longtable}{p{.2\linewidth} p{.8\linewidth}} %tab:items
+
+	\caption[]{Items used in the survey in Study~1 and their short names\label{tab:items}}\\
+	\hline
+	Item name & \multicolumn{1}{c}{Item (R = reverse scored)}  \\
+	\hline
+	\multicolumn{2}{c}{1. Exceptionalism}\\
+	
+	\hline
+	\nopagebreak
+	\emph{HumConsc} & Humans are the only living beings who are conscious \\
+	\emph{EarthIntel} & The Earth is the only planet in the universe that provides the conditions for intelligent life \\
+	\emph{HumRational} &  Humans are inherently rational \\
+	\emph{HumJust1} &  Humans are just one of many million species of animals and we share most of our genes with other animals (R) \\
+	\emph{EarthHierar} & There is a natural hierarchy of life forms on Earth and humans are on the top of that hierarchy \\
+	\\
+	\hline
+	\multicolumn{2}{c}{2. Nationalism}\\
+	\nopagebreak
+	\hline
+	\nopagebreak
+	\emph{IntBigProb} & Some problems are so big they can only be solved by all countries working together (R) \\
+	\emph{IntEnjoy} & I enjoy talking to   people from all around the world (R)\\
+	\emph{Allegiance} & Every human must have an allegiance to one country and one country only \\
+	\emph{IntOwn} & I would prefer to go on holiday with people from my own country rather than with foreigners \\
+	\emph{IntWeb} & A good thing about   the internet is that we can get to know people from foreign countries (R) \\
+	\emph{IntNoMix} &  People coming from different cultures usually do not work together well \\
+	\emph{IntCharity} &  I would rather donate to a charity working in my own country than to a charity that helps people in poor developing countries \\
+	\\
+	\hline
+	
+	\multicolumn{2}{c}{3. IQ Heritable }\\
+	
+	\hline
+	\nopagebreak
+	\emph{IQGen} & When people differ in intelligence, it is mostly due to differences in their genetic endowment (R) \\
+	
+	\emph{IQAdopt} & When a child is adopted into a new family, its intelligence does not depend on the intelligence of its birth parents \\
+	
+	\emph{IQEd} & Intelligence is not inherited, it is acquired through education \\
+	
+	\emph{IQUpbring} & A person's upbringing is more important to their intelligence than their genetic inheritance \\
+	
+	\emph{IQTwins} & Identical twins separated shortly after birth and reared in different family environments will end up having similar intelligence (R) \\
+	
+	\emph{IQParents} & If you know the intelligence of parents, you can make a good guess about the intelligence of   their children even if the children have been brought up by others (R) \\
+	
+	\emph{IQStim} & With a rich stimulating environment every healthy child can grow up to be smart enough to learn any profession \\
+	
+	\\
+	\hline
+	\multicolumn{2}{c}{4. Religiosity}\\
+	\nopagebreak
+	\hline
+	\nopagebreak
+	\emph{RelComf} & Do you agree with the following statement? ``Religion gives me a great amount of comfort and security in my life.'' \\
+	\emph{RelFreq} & During the past year, how often have you experienced a feeling of religious reverence or devotion? (Almost daily--Frequently--Sometimes--Rarely--Never)\\
+	
+	\emph{RelInfl} & How much influence would you say religion has on the way you choose to act and the way you choose to spend your time each day? (No influence--A small influence--Some influence--A fair amount of influence--A large influence)\\
+	
+	\emph{RelAdv} & When you have a serious personal problem how often do you take religious advice or teaching into consideration? (Almost always--Usually--Sometimes--Rarely--Never)\\
+	
+	\emph{PrayComf} & Which of the following best describes your practice of prayer or religious meditation? 
+	(Prayer is a regular part of my daily life -- 
+	I usually pray in times of stress or need but rarely at any other time --
+	I pray only during formal ceremonies --
+	Prayer has little importance in my life --
+	I never pray)\\
+	
+	\\
+	\hline
+	
+	\multicolumn{2}{c}{5. Free market}\\
+	\nopagebreak
+	\hline
+	\nopagebreak
+	\emph{FMUnresBest}&An economic system based on free markets unrestrained by government interference automatically works best to meet human needs. \\
+	\emph{FMLimitSocial} &The free market system may be efficient for resource allocation  but it is limited in its capacity to promote social justice. (R)  \\
+	\emph{FMMoreImp}&The preservation of the free market system is more important than localized environmental concerns.  \\
+	\emph{FMThreatEnv} &Free and unregulated markets pose important threats to sustainable development. (R)  \\
+	\emph{FMUnsustain} &The free market system is likely to promote unsustainable consumption. (R) \\
+	
+	\\
+	\hline
+	
+	
+	\multicolumn{2}{c}{6. Climate science}\\
+	
+	\hline
+	\nopagebreak
+	\emph{CNatFluct} &I believe that the climate is always changing and what
+	we are currently observing is just natural fluctuation. (R) \\
+	\emph{CdueGHG} &I believe that most of the warming over the last 50
+	years is due to the increase in greenhouse gas
+	concentrations. \\
+	\emph{CseriousDam} &I believe that the burning of fossil fuels over the last 50
+	years has caused serious damage to the planet's
+	climate. \\
+	\emph{CO2causesCC} & Human CO2 emissions cause climate change. \\
+	\textit{	HumansInsign} & Humans are too insignificant to have an appreciable
+	impact on global temperature. (R) \\
+	
+	\\
+	\hline
+	
+	\multicolumn{2}{c}{7. Vaccinations}\\
+	\nopagebreak
+	\hline
+	\nopagebreak
+	\emph{VaxSafe} & I believe that vaccines are a safe and reliable way to
+	help avert the spread of preventable diseases. \\
+	\emph{VaxNegSide} & I believe that vaccines have negative side effects that
+	outweigh the benefits of vaccination for children. (R) \\
+	\emph{VaxTested} & Vaccines are thoroughly tested in the laboratory and
+	wouldn't be made available to the public unless it was
+	known that they are safe. \\
+	\emph{VaxRisky} &The risk of vaccinations to maim and kill children
+	outweighs their health benefits. (R)  \\
+	\emph{VaxContrib} & Vaccinations are one of the most significant
+	contributions to public health. \\
+	\hline	
+\end{longtable}
+
+Note: Items marked with * use a different response scale, as indicated in table entries. 
+All other items use 7-point scale from \textit{Strongly disagree }to \textit{Strongly agree}, with 
+center point \textit{Neither agree nor disagree}.
+
+\pagebreak
+%\setlength{\tabcolsep}{8pt}
+\begin{longtable}{p{.15\linewidth} rr rr rr rr rr rr rr} %tab:itemResponses
+	\caption[]{Number of responses (percentages) for each response option for all survey items in Study~1\label{tab:itemResponses}}\\
+	\hline
+	Item name & \multicolumn{2}{c}{\rotatebox[origin=c]{70}{Strongly disagree}} &
+	\multicolumn{2}{c}{\rotatebox[origin=b]{70}{Disagree}} &
+	\multicolumn{2}{c}{\rotatebox[origin=c]{70}{Somewhat disagree}} &
+	\multicolumn{2}{c}{\rotatebox[origin=c]{70}{Neither agree nor disagree} } &
+	\multicolumn{2}{c}{\rotatebox[origin=c]{70}{Somewhat agree}} &
+	\multicolumn{2}{c}{\rotatebox[origin=c]{70}{Agree}} &
+	\multicolumn{2}{c}{\rotatebox[origin=c]{70}{Strongly agree}}  \\
+	
+	\hline
+	\multicolumn{15}{c}{1. Human exceptionalism}\\
+	\hline
+	\nopagebreak
+	\input{_t.exceptionalism.tex}
+	
+	\hline
+	\multicolumn{15}{c}{2. Nationalism}\\
+	\nopagebreak
+	\hline
+	\nopagebreak
+	\input{_t.nationalism.tex}
+		
+	\pagebreak
+	\hline
+	Item name & \multicolumn{2}{c}{\rotatebox[origin=c]{70}{Strongly disagree}} &
+	\multicolumn{2}{c}{\rotatebox[origin=b]{70}{Disagree}} &
+	\multicolumn{2}{c}{\rotatebox[origin=c]{70}{Somewhat disagree}} &
+	\multicolumn{2}{c}{\rotatebox[origin=c]{70}{Neither agree nor disagree} } &
+	\multicolumn{2}{c}{\rotatebox[origin=c]{70}{Somewhat agree}} &
+	\multicolumn{2}{c}{\rotatebox[origin=c]{70}{Agree}} &
+	\multicolumn{2}{c}{\rotatebox[origin=c]{70}{Strongly agree}}  \\
+	\hline
+	\multicolumn{15}{c}{3. IQ Heritable }\\
+	\hline
+	\nopagebreak
+	\input{_t.malleability.tex}		
+
+	\hline
+	\multicolumn{15}{c}{4. Religiosity *}\\
+	\nopagebreak
+	\hline
+	\nopagebreak
+   	\input{_t.religiosity.tex}		
+			
+	\hline
+	\multicolumn{15}{c}{5. Free market}\\
+	\nopagebreak
+	\hline
+	\nopagebreak
+	\input{_t.freemarket.tex}		
+
+	\pagebreak
+	\hline
+	Item name & \multicolumn{2}{c}{\rotatebox[origin=c]{70}{Strongly disagree}} &
+	\multicolumn{2}{c}{\rotatebox[origin=b]{70}{Disagree}} &
+	\multicolumn{2}{c}{\rotatebox[origin=c]{70}{Somewhat disagree}} &
+	\multicolumn{2}{c}{\rotatebox[origin=c]{70}{Neither agree nor disagree} } &
+	\multicolumn{2}{c}{\rotatebox[origin=c]{70}{Somewhat agree}} &
+	\multicolumn{2}{c}{\rotatebox[origin=c]{70}{Agree}} &
+	\multicolumn{2}{c}{\rotatebox[origin=c]{70}{Strongly agree}}  \\
+	\hline
+	\multicolumn{15}{c}{6. Climate science}\\
+	\hline
+	\nopagebreak
+	\input{_t.climate.tex}			
+			
+	\hline
+	\multicolumn{15}{c}{7. Vaccinations}\\
+	\nopagebreak
+	\hline
+	\nopagebreak
+	\hline	
+	\input{_t.vax.tex}		
+	\hline
+		
+\end{longtable}
+		Note: Items marked with * use a different response scale; see Table~\ref{tab:items}. Item names
+		are explained in Table~\ref{tab:items}.
+
+%%%%%%%%%%%%%%%%%%%%%%%% Study 2
+
+\pagebreak
+\begin{longtable}{p{.2\linewidth} p{.8\linewidth}} %tab:items2
+	
+	\caption[]{Items used in the survey in Study~2 and their short names\label{tab:items2}}\\
+	\hline
+	Item name & \multicolumn{1}{c}{Item (R = reverse scored)}  \\
+	\hline
+	\multicolumn{2}{c}{1. Norms of Science}\\
+	
+	\hline
+	\nopagebreak
+	\emph{NOR\_COM1} & Scientific findings should be available to everybody everywhere in the world
+	\\
+	\textit{NOR\_COM2}  & Scientists should share their knowledge freely with everyone interested	\\
+	\textit{NOR\_COM3}  & The results of scientific research in our
+	country should be protected better so that they cannot be used by our
+	adversaries (R)	\\
+		\textit{NOR\_COM4} & An important goal of science should be to ensure
+	the technological superiority of our military (R) 	\\
+	
+	\textit{NOR\_DIS1}  & Scientists should put evidence ahead of their own views	\\
+	\textit{NOR\_DIS2}  & Scientists
+	should investigate only what they judge to be scientifically important,
+	regardless of whether it leads to financial gain for them or their employers	\\
+	\textit{NOR\_DIS3}  & The main goal of science should be to strengthen the economy by developing better technology (R)	\\
+	\textit{NOR\_DIS4} & The main responsibility of a scientist should be
+	to make their university or employer more competitive (R)	\\
+	
+	\textit{NOR\_SCEP1}  & Scientists should always keep an open mind and
+	be prepared to change their conclusions if new evidence comes along	\\
+	\textit{NOR\_SCEP2} & For a scientist it should only be a matter of
+	last resort to admit that they are wrong (R)	\\
+	
+	\textit{NOR\_UNIV1}  & The truth of a scientific discovery does not depend on the nationality, gender, race, or faith of the scientist making it
+	\\
+	\textit{NOR\_UNIV2}  & Scientific knowledge should hold true for everybody all over the world 	\\
+	\textit{NOR\_UNIV3} & A scientific statement that is true in one country can be false in another (R)	\\
+	\textit{NOR\_UNIV4} & One should not believe a scientific discovery that contradicts one's faith (R)\\
+	\hline
+	\multicolumn{2}{c}{2. Conservatism}\\
+	\nopagebreak
+	\hline
+	\textit{POL\_CONS1} &	People are better off in a free market economy \\
+	\textit{POL\_CONS2} &	This country would have many fewer problems if there were more emphasis on traditional family values \\
+	\textit{POL\_CONS3}	& The world is always changing and we should adjust our views of moral behavior to those changes (R) \\
+	\textit{POL\_CONS4}	& Socialism has many advantages over Capitalism (R) \\
+	\textit{POL\_CONS5} * &	People sometimes use the labels 'left' or 'left-wing' and 'right' or 'right-wing' to describe political parties, party leaders, and political ideas. Using the 0 to 10 scale below, where the end marked 0 means left and the end marked 10 means right, where would you place yourself on this scale? \\
+	\\
+	\hline
+	\multicolumn{2}{c}{3. IQ Heritable }\\
+	\hline
+	\textit{IQ\_GEN1}	& When people differ in intelligence, it is mostly
+	due to differences in their genes \\
+	\textit{IQ\_GEN2}	& Intelligence
+	is not inherited but is acquired through education (R)\\
+	\textit{IQ\_GEN3}	& Some children are born brighter than others, and
+	that is unlikely to change during their life \\
+	\textit{IQ\_GEN4}	& A person's upbringing is more important to their
+	intelligence than their genetic inheritance (R) \\
+	\textit{IQ\_GEN5}	& With a rich stimulating environment every
+	healthy child can grow up to be smart enough to learn any profession (R)\\
+	\textit{IQ\_GEN6}	& Smart parents will usually have smart children,
+	even if the children are raised by other people \\
+	\\
+	
+	\hline
+	\multicolumn{2}{c}{4. Climate science: See Table \ref{tab:items}}\\
+	\hline
+	\multicolumn{2}{c}{5. Vaccinations: See Table \ref{tab:items}}\\
+	\hline
+	
+	\multicolumn{2}{c}{6. Social Dominance Orientation}\\
+	\nopagebreak
+	\hline
+	\nopagebreak
+
+\textit{SDO1} &	An ideal society requires some groups to be on top and others to be on the bottom \\
+\textit{SDO2} &	Some groups of people are simply inferior to other groups in society \\
+\textit{SDO3} & No one group should dominate in society (R) \\
+\textit{SDO4} &	Groups of society at the bottom are just as deserving as groups at the top (R) \\
+\textit{SDO5}	& Equality between groups in society should not be our primary goal \\
+\textit{SDO6}	& It is unjust to try to make groups in society equal \\
+\textit{SDO7} &	We should do what we can to equalize conditions for different groups in society (R) \\
+\textit{SDO8} &	We should work to give all groups in society an equal chance to succeed (R) \\
+	\hline	
+\end{longtable}
+
+Note: Item marked with * uses a different response scale, as indicated in table entry. 
+All other items use 7-point scale from \textit{Strongly disagree }to \textit{Strongly agree}, with 
+center point \textit{Neither agree nor disagree}.
+
+\pagebreak
+%\setlength{\tabcolsep}{8pt}
+\begin{longtable}{p{.15\linewidth} rr rr rr rr rr rr rr} %tab:itemResponses2
+	\caption[]{Number of responses (percentages) for each response option for all survey items in Study~2\label{tab:itemResponses2}}\\
+	\hline
+	Item name & \multicolumn{2}{c}{\rotatebox[origin=c]{70}{Strongly disagree}} &
+	\multicolumn{2}{c}{\rotatebox[origin=b]{70}{Disagree}} &
+	\multicolumn{2}{c}{\rotatebox[origin=c]{70}{Somewhat disagree}} &
+	\multicolumn{2}{c}{\rotatebox[origin=c]{70}{Neither agree nor disagree} } &
+	\multicolumn{2}{c}{\rotatebox[origin=c]{70}{Somewhat agree}} &
+	\multicolumn{2}{c}{\rotatebox[origin=c]{70}{Agree}} &
+	\multicolumn{2}{c}{\rotatebox[origin=c]{70}{Strongly agree}}  \\
+	
+	\hline
+	\multicolumn{15}{c}{1. Norms of science}\\
+	\hline
+	\nopagebreak
+	\input{_t.norms2.tex}
+	\hline
+	
+	\pagebreak
+	Item name & \multicolumn{2}{c}{\rotatebox[origin=c]{70}{Strongly disagree}} &
+	\multicolumn{2}{c}{\rotatebox[origin=b]{70}{Disagree}} &
+	\multicolumn{2}{c}{\rotatebox[origin=c]{70}{Somewhat disagree}} &
+	\multicolumn{2}{c}{\rotatebox[origin=c]{70}{Neither agree nor disagree} } &
+	\multicolumn{2}{c}{\rotatebox[origin=c]{70}{Somewhat agree}} &
+	\multicolumn{2}{c}{\rotatebox[origin=c]{70}{Agree}} &
+	\multicolumn{2}{c}{\rotatebox[origin=c]{70}{Strongly agree}}  \\
+	\hline
+\multicolumn{15}{c}{2. Conservatism}\\
+\nopagebreak
+\hline
+\nopagebreak
+\input{_t.conservatism2.tex}
+
+	\hline
+	\multicolumn{15}{c}{3. IQ Heritable }\\
+	\hline
+	\nopagebreak
+	\input{_t.malleability2.tex}		
+	
+	\hline
+	\multicolumn{15}{c}{4. Climate science}\\
+	\hline
+	\nopagebreak
+	\input{_t.climate2.tex}			
+	\hline
+	
+    \pagebreak
+	Item name & \multicolumn{2}{c}{\rotatebox[origin=c]{70}{Strongly disagree}} &
+	\multicolumn{2}{c}{\rotatebox[origin=b]{70}{Disagree}} &
+	\multicolumn{2}{c}{\rotatebox[origin=c]{70}{Somewhat disagree}} &
+	\multicolumn{2}{c}{\rotatebox[origin=c]{70}{Neither agree nor disagree} } &
+	\multicolumn{2}{c}{\rotatebox[origin=c]{70}{Somewhat agree}} &
+	\multicolumn{2}{c}{\rotatebox[origin=c]{70}{Agree}} &
+	\multicolumn{2}{c}{\rotatebox[origin=c]{70}{Strongly agree}}  \\
+	\hline
+
+	\multicolumn{15}{c}{5. Vaccinations}\\
+	\nopagebreak
+	\hline
+	\input{_t.vax2.tex}		
+	
+	\hline
+	\multicolumn{15}{c}{6. Social Dominance Orientation}\\
+	\nopagebreak
+	\hline
+	\nopagebreak
+	\hline	
+	\input{_t.sdo2.tex}		
+	\hline
+
+	
+\end{longtable}
+Item names
+are explained in Table~\ref{tab:items2}. Item POL\_CONS5, which used
+a 0--11 response scale, is not shown. 
+
+
+\end{document}
