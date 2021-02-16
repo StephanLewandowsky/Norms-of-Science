@@ -11,7 +11,7 @@ library(semPlot)
 
 
 #**-------------- define working directory but don't change to it so all output files end up in folder where paper is being compiled
-wd <- "C:/Users/lewan/Documents/Research Projects/Climate Change/religion human special status and science Klaus/Q rep sample/Q religion data"
+wd <- "C:/Users/Lewan/Documents/Research Projects/Climate Change/religion human special status and science Klaus/Study 1 -- part of original Cognition submission 2019/Q rep sample/Q religion data"
 source(paste(wd,"religionQfuncs.R",sep="/"))
 
 #This does not work from Sweave or Knitr: setwd(dirname(rstudioapi::getSourceEditorContext()$path))
@@ -84,7 +84,7 @@ write.table(t4l[35:39,],file="_t.vax.tex",quote=FALSE,col.names=FALSE,row.names=
 #now reverse score such that polarity is:
 # humans are special 
 # nationalism is great
-# IQ is environmentally determined and malleable
+# IQ is heritable (flipped from initial analysis)
 # being religious
 # free market endorsement
 # accept climate change
