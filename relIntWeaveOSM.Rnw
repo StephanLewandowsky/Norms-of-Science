@@ -27,21 +27,6 @@
 \rightheader{Worldview and norms of science}
 \leftheader{Worldview and norms of science}
 
-%\ifapamodeman{%
-%\note{
-%\begin{flushleft}
-%Stephan Lewandowsky \\
-%School of Psychological Science and Cabot Institute \\
-%University of Bristol \\
-%12a Priory Road \\
-%Bristol BS8 1TU, United Kingdom \\
-%stephan.lewandowsky@bristol.ac.uk \\
-%URL: http://www.cogsciwa.com \\
-%\end{flushleft}}
-%}
-%{% else, i.e., in jou and doc mode
-%\note{}
-%}
 \begin{document}
 \renewcommand{\thefigure}{S\arabic{figure}}
 \renewcommand{\thetable}{S\arabic{table}}
@@ -56,7 +41,7 @@ knitr::opts_chunk$set(results="hide",echo=FALSE,message=FALSE,error=FALSE)
 <<doanalysis, echo=FALSE, warning=FALSE, message=FALSE, results='hide', fig.keep='none'>>=
 # run the analysis which should generate figures
 #source("test.R")
-source("C:/Users/Lewan/Documents/Research Projects/Climate Change/religion human special status and science Klaus/Study 1 -- part of original Cognition submission 2019/Q rep sample/Q religion data/religionQualtrics.r")
+source("C:/... replace with local path.../religionQualtrics.r")
 @
 
 \section{Study 1: Materials and data summary}
@@ -99,7 +84,7 @@ of the average scores for the 7 constructs.
 \section{Study 2: Materials and data summary}
 
 <<doanalysis2, echo=FALSE, warning=FALSE, message=FALSE, results='hide', fig.keep='none'>>=
-source("C:/Users/Lewan/Documents/Research Projects/Climate Change/religion human special status and science Klaus/Study 2 -- for revision/qualtrics details and data study 2/norms2Q.r")
+source("C:/... replace with local path..../norms2Q.r")
 @
 
 All core items and attention filters used a 7-point 
