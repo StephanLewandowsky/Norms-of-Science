@@ -138,7 +138,20 @@ composites$NORscepcomp <- newNorms2 %>% select(starts_with("NOR_SCEP")) %>% appl
 composites$AllNorms <- newNorms2 %>% select(starts_with("NOR_")) %>% apply(1,mean)
 composites <- as.data.frame(composites)
 
-cor(composites)
+normcorrs <- cor(composites)
+cor.mtest(composites)$p < .1
+
+#* ---- print table with component correlations involving norms
+t4l <- NULL
+normcorvarnames<- c("Conservatism","Universalism","Disinterestedness","Communism","Scepticism","All norms")
+for (i in 2:dim(normcorrs)[1]) {
+  rowofcors <- paste(sapply(1:i-1, FUN=function(j) paste(sprintf("%5.3f",normcorrs[i,j])," & ",sep="")),collapse="",sep="")
+  mychar <-paste(normcorvarnames[i], rowofcors, "\\","\\", sep="")
+  t4l<-rbind(t4l,mychar,deparse.level = 0)
+}
+writeLines(t4l,con="_t.normcors.tex")
+
+
 
 NORvars <- c(names(composites %>% select(starts_with("NOR"),-AllNorms)))
 fmmod <- c("NOR =~ ",paste(NORvars,collapse=" + "))
