@@ -1,9 +1,3 @@
-%Add stuff about how norms are not necessarily fully realistic as per Naomi's book
-%Send to Chris Mooney
-
-%checklist 7 Feb 2021
-% put R code for Study 2 at https://git.io/fpEYo
-
 \documentclass[fignum,man]{apa}
 
 \usepackage{Sweave}
@@ -348,14 +342,6 @@ is central to this pursuit, it ironically
 entails 
 harmful effects on 
 the environment that ultimately may compromise human well-being.
-%The implications of the pursuit of well-being 
-%have been aptly satirized in a recent article 
-%that issued a ``final warning to planet Earth'', 
-%proclaiming that
-%``growth must indefinitely prevail unrestricted'' \cite[p.~1]{Chapron18}.
-%\todo[inline]{The Chapron et al article is so hilarious yet profound that I really want
-%to cite it, although I am not sure that this works for the uninformed
-%reader without more explanation.}
 
 The role of science vis-\`{a}-vis human exceptionalism 
 is ambivalent: On the one hand, without science no human
@@ -374,15 +360,8 @@ the image of
 God, research has increasingly revealed surprising cognitive
 similarities between us and other species.
 For example, chimpanzees have been shown to be
-%fair in ultimatum games \cite{Proctor13} and to be 
 capable of altruism  \cite{Warneken06,Warneken07}. Indeed,
 chimpanzees may have at least a rudimentary ``theory of mind'' \cite{Karg15}.
-%A radical interpretation of those findings has been proposed by 
-%\citeA{McGregor18}, who not only rejects the idea 
-%that human cognition is exceptional but 
-%``entirely
-%refuses to draw any distinction between cognitive and
-%non-cognitive systems'' (p.~35).
 Although the boundaries of primate cognition
 are still being debated, there is no doubt that
 scientific progress---especially 
@@ -390,19 +369,6 @@ in evolutionary biology---has placed
 \textit{homo sapiens }within a continuous 
 development of species,  eroding 
  support for the notion that humans are exceptional. 
-%https://ebookcentral-proquest-com.ezproxy.library.uwa.edu.au/lib/uwa/detail.action;jsessionid=1u0trya2y6368e36tu9o1hhro?docID=5110769#goto_toc (Interesting book only available as 1-day loan)
-%https://www.newscientist.com/article/mg22830511-100-time-to-rethink-what-makes-humans-special/ <--two interesting books being reviewed
-%great BBC piece: http://www.bbc.co.uk/earth/story/20150706-humans-are-not-unique-or-special
-%We are not unique: 
-%Roberts12 (Uganda chimps, gestures)
-%Warneken15: Chimps can cook (almost)
-%Whiten99: Chimps have culture
-%DavilaRoss15: chimps have laugh faces
-%Parr06: chimp facial expressions (review)
-%Brosnan03: monkeys reject unfair payment
-%Plotnik06: Self-recognition in an Asian elephant
-%Prior08: self-recognition in a magpie
-%Watson15: immigrant chimpanzees learn local "language" (signifiers for objects)
 
 A person with a commitment to human exceptionalism may therefore 
 be reluctant to embrace the scientific method or its findings, lest 
@@ -462,14 +428,6 @@ On balance, therefore, the involvement of religion
 in the rejection of science appears
 nuanced and is worthy of further exploration.
 Our study therefore also included an assay of religiosity.
-%O'Brien15 <- Latent class analysis reveals three groups based on knowledge and attitudes
-%about science, religiosity, and preferences for certain religious interpretations of the world.
-%The traditional perspective (43 percent) is marked by a preference for religion compared to
-%science; the modern perspective (36 percent) holds the opposite view. A third perspective,
-%which we call post-secular (21 percent), views both science and religion favorably. However,
-%when faced with competing accounts of events such as creation and evolution, post-seculars
-%root their views in religion rather than in mainstream science.
-%Religious people require less evidence: McPhetres17
 
 \subsection{Science denial on the left?}
 Our preceding analysis provided several reasons why the rejection
@@ -518,7 +476,6 @@ There is evidence that political attitudes affect people's support
 for educational policies that rest on the view that intelligence is malleable. For
 example, liberal (as opposed to conservative) participants are more likely to support 
 policies such as an equal distribution of property taxes across school districts,
-%based only upon the number of students in each school, 
 and this support is
 further amplified by an experimental manipulation that
 emphasizes that most
@@ -546,7 +503,6 @@ vary across studies and with variables such as the
 age of the subject population, there is no credible 
 evidence that would deny a 
 notable role of heritability in determining people's intelligence. 
-%race "science:" https://www.theguardian.com/news/2018/mar/02/the-unwelcome-revival-of-race-science
 Both our studies therefore included items that queried
 people's acceptance of the heritability of intelligence
 and its limited malleability. We
@@ -554,10 +510,6 @@ expected those items to be particularly challenging to
 people with left-wing political views. We would therefore
 expect a positive association with indicators of conservatism
 and endorsement of the heritability construct. 
-
- %Klaus review of meta analyses: https://featuredcontent.psychonomic.org/training-of-intelligence-a-question-of-intelligent-training/
-% from Klaus email 23/3/18: I’ve had a brief look at these papers, and ended up reading the Sauce & M. one in more detail. As they say, none of their points are new, but they provide a useful overview of the arguments and the evidence. For the narrow purpose of our religion paper, the important thing is that genetic influences on IQ are indisputable. It does not really matter how high the h-square is, because, as Sauce & M. point out, it conflates a variety of more or less indirect causal paths from genes through (body-internal and external) environment to phenotype, and because it varies substantially with age and with SES. The estimate of Polderman matches other estimates I’m aware of for young adulthood. 
-%I looked back at our survey statements of intelligence and I still think that our judgments on which of them are true and which are false, in light of current science, is defensible – although one could of course question the generality of most of them (e.g., “Twins separated shortly after birth will end up having similar intelligence even if they are reared in different familiy environments” is not true if you make the family environments extremely different) – but then, that’s inevitably so because we had to keep the items simple. 
 
 \section{Study 1}
 
@@ -1750,18 +1702,6 @@ about the norms of science would affect subsequent interpretation
 of the data, or conversely, whether partisan differences in
 attitudes might become attenuated by prior processing of data.
  
-
-
-%why self-identified liberals score higher on measures of scientific
-%literacy \cite{Carl16}
-%\subsection{Alternative accounts}
-%
-%Bartz16; Reminders of Social Connection Can Attenuate Anthropomorphism
-%
-%Reject idea that ``social activism'' is responsible for reduction in trust in science among conservatives \cite{Cofnas18}.
-%Not just our results but also experimental studies: \cite{Kotcher17}. Advocacy does not hurt.
-
-%\bibliography{mega,megaIPsub}
 \begin{thebibliography}{}
 	
 	\bibitem [\protect \citeauthoryear {%
