@@ -1,6 +1,6 @@
 # Norms-of-Science
 
-* R scripts and LaTeX source file for Worldview-motivated rejection of science and the norms of science by Lewandowsky and Oberauer. The data for the two studies are available at the links below, and to allow compilation of the LaTeX file, the data and R scripts must be put into places where they are accessible to the LaTeX compiler. All files contain pseudopaths to data and scripts that must be adapted to the user's installation and directory structure.
+* R scripts and LaTeX source file for Worldview-motivated rejection of science and the norms of science by Lewandowsky and Oberauer. The data for the two studies are available at the links below, and to allow compilation of the LaTeX file (extension .Rnw), the data and R scripts must be put into places where they are accessible to the LaTeX compiler. All files contain pseudopaths to data and scripts that must be adapted to the user's installation and directory structure.
 
 ## Study 1
 
